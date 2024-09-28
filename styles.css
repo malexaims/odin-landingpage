@@ -1,0 +1,128 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font: Roboto;
+}
+
+.section1{
+    display: flex;
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F2937;
+    flex-direction: column;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 40px;
+    padding-bottom: 100px;
+    color: white;
+}
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.title{
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.links a{
+    font-size: 18px;
+    margin: 20px;
+}
+
+.awesome{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+
+.awesome.title{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.awesome.subtext{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.button{
+    background-color: #3882f6;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    color: #E5E7EB;
+}
+
+
+.section2{
+    display: flex;
+    background-color: #F9FAF8;
+    flex-direction: column;
+    padding-bottom: 40px;
+}
+
+.section2.header{
+    align-items: center;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    margin: 20px;
+}
+
+.section2.images{
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+    justify-content: center;
+}
+
+.section2.imagetile{
+    width: 100px;
+    height: 100px;
+}
+
+.section2.imagesubtext{
+    font-size: 12px;
+    text-align: center;
+    padding-top: 8px;
+}
+
+.section2.images img{
+    border: 2px solid #3882f6;
+    border-radius: 10px;
+}
+
+.section3{
+    display: flex;
+    background-color: #E5E7EB;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-around;
+    padding-top: 100px;
+}
+
+.section3.quote{
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
+}
+
+.section3 h2{
+    text-align: right;
+    padding-bottom: 100px;
+    padding-right: 100px;
+}
+
+
+
